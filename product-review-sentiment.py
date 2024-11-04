@@ -20,7 +20,7 @@ from nltk.tokenize import word_tokenize
 from nltk.stem import PorterStemmer, LancasterStemmer # Common stemmers
 from nltk.stem import WordNetLemmatizer # Common Lematizer
 
-product_reviews = pd.read_csv('C://bjai/.venv/Amazon-Product-Reviews-Amazon-Product-Review.csv')
+product_reviews = pd.read_csv('C://bjai/gitrepo/bj-ml/Customer-Product-Review.csv')
 ##pre-processing
 #convert word into lowercase
 product_reviews['reviews_text']=product_reviews['review_body'].str.lower()
